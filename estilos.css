@@ -1,0 +1,57 @@
+button {
+    display: flex;
+    flex-grow: 1;
+    width: 80px;
+    height: 80px;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 5px;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+
+}
+
+button:hover {
+    background-color: grey
+}
+
+.espacio {
+    flex-grow: 1;
+}
+
+
+.matriz {
+    display: flex;
+    flex-direction: column;
+    padding-left: 200px;
+    padding-right: 200px;
+}
+
+.fila-letras {
+    display: flex;
+    justify-content: stretch;
+    flex-direction: row;
+
+}
+
+.fila {
+    display: flex;
+}
+
+.caja {
+    border: 1px solid black;
+    width: 80px;
+    height: 80px;
+    border-radius: 10px;
+    margin: 5px;
+    padding: 3px;
+
+}
+
+body {
+    background-color: gray;
+}
